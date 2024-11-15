@@ -32,31 +32,19 @@ const HeroSection = () => {
             </button>
           </div>
           <div className="flex space-x-4">
-            {/* <a
-              href="#"
-              className="text-yellow-300 hover:text-white transition-colors duration-300"
-            >
-              <Facebook size={20} />
-            </a>
-            <a
-              href="#"
-              className="text-yellow-300 hover:text-white transition-colors duration-300"
-            >
-              <Twitter size={20} />
-            </a> */}
             <a
               href="https://github.com/kentobias132/"
               target="_blank"
               className="text-yellow-300 hover:text-white transition-colors duration-300"
             >
-              <Github size={20} />
+              <Github size={30} />
             </a>
             <a
               href="https://www.linkedin.com/in/tobi-kehinde-2a11a7213/"
               target="_blank"
               className="text-yellow-300 hover:text-white transition-colors duration-300"
             >
-              <Linkedin size={20} />
+              <Linkedin size={30} />
             </a>
           </div>
         </div>
