@@ -4,7 +4,10 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="bg-purple-900 py-16 px-4 sm:px-6 lg:px-8 relative">
+    <div
+      data-aos="zoom-out-up"
+      className="bg-purple-900 py-16 px-4 sm:px-6 lg:px-8 relative"
+    >
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col lg:flex-row items-center lg:items-start">
           <img

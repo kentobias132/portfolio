@@ -227,7 +227,10 @@ const clients = [
 
 // Client Card Component
 const ClientCard = ({ name, review, image }) => (
-  <div className="bg-purple-800 text-center h-80 rounded-lg p-8 my-8 mx-4 transition-all duration-300 hover:bg-purple-950">
+  <div
+    data-aos="slide-right"
+    className="bg-purple-800 text-center h-80 rounded-lg p-8 my-8 mx-4 transition-all duration-300 hover:bg-purple-950"
+  >
     <div className="">
       <img
         src={image}

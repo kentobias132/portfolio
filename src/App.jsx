@@ -1,6 +1,3 @@
-//
-
-// App.js
 import React, { useRef } from "react";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
@@ -10,9 +7,16 @@ import MyWorks from "./components/MyWorks";
 import MyClients from "./components/MyClients";
 import ContactUs from "./components/Contact";
 import Footer from "./components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
-  // Create refs for each section
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
+  // refs for each section
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
   const skillsRef = useRef(null);

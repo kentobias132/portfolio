@@ -133,7 +133,10 @@ export default function ContactMe() {
   };
 
   return (
-    <div className="min-h-screen bg-purple-900 text-white flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <div
+      data-aos="zoom-in-down"
+      className="min-h-screen bg-purple-900 text-white flex items-center justify-center px-4 sm:px-6 lg:px-8"
+    >
       <div className="max-w-4xl w-full  shadow-lg rounded-lg overflow-hidden">
         <div className="md:flex">
           <div className="md:w-1/2 p-8">
